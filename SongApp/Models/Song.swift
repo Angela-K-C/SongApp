@@ -14,7 +14,10 @@ struct Song: SongProtocol, Codable, Identifiable {
     let title: String
     let artist: String
     let album: String
-    let releaseDate: Date
+    let releaseDate: String
+    var artworkUrl: String
+    var previewUrl: String
+    
     
 
     enum CodingKeys: String, CodingKey {
@@ -23,5 +26,7 @@ struct Song: SongProtocol, Codable, Identifiable {
         case artist = "artistName"
         case album = "collectionName"
         case releaseDate = "releaseDate"
+        case artworkUrl = "artworkUrl100"
+        case previewUrl = "previewUrl"
     }
 }

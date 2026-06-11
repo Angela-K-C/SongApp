@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B7B18F1B2FD9568400FDE29A /* SongAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B18F1A2FD9568400FDE29A /* SongAppApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B7814B5F2FD814A600495DEE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		B7814B512FD814A500495DEE /* SongApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SongApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7814B5E2FD814A600495DEE /* SongAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SongAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7814B682FD814A600495DEE /* SongAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SongAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B18F1A2FD9568400FDE29A /* SongAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongAppApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		B7814B482FD814A500495DEE = {
 			isa = PBXGroup;
 			children = (
+				B7B18F1A2FD9568400FDE29A /* SongAppApp.swift */,
 				B7814B532FD814A500495DEE /* SongApp */,
 				B7814B612FD814A600495DEE /* SongAppTests */,
 				B7814B6B2FD814A600495DEE /* SongAppUITests */,
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7B18F1B2FD9568400FDE29A /* SongAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

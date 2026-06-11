@@ -12,6 +12,7 @@ protocol SongProtocol {
     var title: String { get }
     var artist: String { get }
     var album: String { get }
-    var releaseDate: Date { get }
+    var releaseDate: String { get }
+    var previewUrl: String { get }
 }
 

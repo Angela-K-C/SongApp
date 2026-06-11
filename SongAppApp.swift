@@ -1,14 +1,14 @@
 //
-//  SongAppApp.swift
-//  SongApp
+//  angelaxApp.swift
+//  angelax
 //
-//  Created by etud on 09/06/2026.
+//  Created by etud on 03/06/2026.
 //
 
 import SwiftUI
 
 @main
-struct SongAppApp: App {
+struct angelaxApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
